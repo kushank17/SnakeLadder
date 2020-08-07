@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/snake_ladder" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/titlepic3"
+        android:scaleType="centerCrop"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="single player"
+        android:background="#AEF7"
+        android:textStyle="bold"
+        android:layout_margin="0dp"
+        android:textSize="35dp"
+        android:id="@+id/buttonS"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="single"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="multiplayer"
+        android:background="#AEF7"
+        android:textStyle="bold"
+        android:layout_margin="0dp"
+        android:textSize="35dp"
+        android:id="@+id/buttonM"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="multi"
+        />
+
+</LinearLayout>
